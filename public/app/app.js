@@ -1,4 +1,4 @@
-var app = angular.module('passApp',[]);
+var app = angular.module('passApp',['ngAnimate', 'ngMaterial']);
 
 app.controller('passCtrl', ['$scope', '$http', function($scope, $http) {
 	$scope.submit = function() {
